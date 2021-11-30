@@ -1,0 +1,427 @@
+*{/*configuración troncal*/
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(35,44,81)
+}
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+/*------------------------------------------------------------- Header*/
+header{/*logo*/
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;      
+    z-index: 4;
+    padding: 4vh 1vw;
+    background-color: white;
+    
+}
+header div i{
+    padding-left: 30vw;
+}
+.nav-bar{/*menu navegación oculto*/
+    display: none;
+}
+header input.boton{/*boton naranja oculto*/
+    display: none;
+}
+
+/*--------------------------------------------------------- Boton Naranja*/
+.boton{/*configuración del boton naranja*/
+    width: 120px;
+    height: 40px;
+    background-color: rgb(242, 95, 58);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: 500;    
+    font-size: 13,18px;
+    line-height: 19,26px;
+}
+.boton:hover{/*transparencia boton naranja cuando paso mouse*/
+    background-color: rgba(242, 95, 58,.5);
+    color: rgb(249, 249, 249);
+}
+
+/*------------------------------------------------------------- Main*/
+#primerSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+    align-items: flex-start;    
+    position: absolute;
+    top: 11vh;
+    box-sizing: border-box;
+}
+#graficos img{
+    display: block;
+    position: relative;
+    max-width: 80%;   
+    margin: 0 10% 10%;
+}
+div#titular{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    align-self: flex-end;
+    text-align: start;
+    margin: 0 5vw 2vh;
+}
+#titular h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 4vh;
+    text-align: center;
+    
+
+}
+#titular p{
+    font-size: 1rem;
+    line-height: 2.5vh;
+    color: rgb(143, 148, 167);
+    
+    max-width: 90%;
+    margin: 1vh 10% 2vh;
+}
+div#titular input.boton{
+    margin-left: 30%;
+}
+
+/*----------------------------------------------------- Segunda sEccion*/
+#segundaSeccion{/* texto y listados*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    box-sizing: border-box;
+    top: 80vh
+}
+#parteA{/*texto*/
+    display: block;
+    position: absolute;
+    padding: 5%;
+}
+#parteA h3{
+    font-size: 2.25rem;
+    line-height: 4vh;
+    font-weight: 700;    
+    padding-bottom: 2vh;
+}
+#parteA p{
+    line-height: 2.5vh;
+    color: rgb(143, 148, 167);
+}
+#parteB{/*listados*/
+    display: block;
+    position: absolute;
+    top:30vh;
+}
+#parteB dl{
+    height: 20vh;
+    width: 95vw;
+    position: relative;
+    padding: 0 0 15% 0%;
+    margin-bottom: 5%;
+
+}
+#parteB dl span{/*el no boton para numerar*/
+    width: 69px;
+    height: 43px;
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 700;    
+    font-size: 16px;
+    line-height: 23,38px;
+    position: relative;
+    z-index: 1;
+    
+
+}
+#parteB dl dt{
+    position: absolute;
+    left: 13vw;
+    top: -1vh;
+    display: block;
+    font-weight: 700;
+    padding: 1vh 4vh;    
+    background-color: rgb(255, 239, 234);
+    font-size: .99rem;
+    width: 100%;
+}
+#parteB dl dd{
+    position: absolute;
+    top:20%;
+    color: rgb(143, 148, 167);
+    line-height: 3vh;
+    margin: 0% 5%;    
+}
+
+/*----------------------------------------------------- Tercera Seccion*/
+#terceraSeccion{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    box-sizing: border-box;
+    top:180vh;
+    height: 130vh;
+    
+}
+#terceraSeccion h2{
+    display: flex;
+    position: relative;
+    font-size: 2rem;
+    line-height: 4vh;
+    font-weight: 700;
+    margin: 30% 0% 30% 8%;
+}
+article.tarjeta{
+    display:flex;
+    justify-content: center;
+    position: relative;    
+    background-color:rgb(249, 249, 249);
+    height: 21%; 
+    margin-bottom: 8vh; 
+}
+.tarjeta img{
+    width: 35%;
+    padding: 0 25%;
+    display: block;
+    position: absolute;
+    top: -20%;
+
+}
+.tarjeta h4{
+    position: absolute;
+    top:35%;
+    font-weight: 700;
+    line-height: 2vh;
+}
+.tarjeta p{
+    position: absolute;
+    top: 50%;
+    font-weight: 600;
+    line-height: 2vh;
+    width: 90%;
+    color:#B9B9C1;
+    font-size: .8rem;
+    text-align: center;
+}
+#terceraSeccion .boton{
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    margin-left: 30%;    
+}
+
+
+/*------------------------------------------------------------- Footer*/
+footer{
+    display:block;
+    position: relative;
+    top: 185vh;
+    max-width: 100%;
+    height: 100vh;
+}
+.banner1{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-end;
+    position: relative;
+    background-color: #F3613C;
+    height: 40%;
+}
+.banner1 span{
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 5vh;
+    padding: 45% 5%;  
+    text-align: center;  
+}
+.banner1 .boton{
+    display: block;
+    position: absolute;
+    margin-left: 30%;
+    background-color: rgb(255, 239, 234);
+    color: rgb(242, 95, 58);
+    bottom: 25%;
+}
+.banner1 .boton:hover{
+    background-color: rgba(255, 239, 234,0.5);
+}
+.banner2{
+    background-color: #1E1E26;
+    height: 60%;
+    display: flex;
+
+  
+        
+}
+section.banner2 form{
+    display: block;
+    position: absolute;
+    align-self: flex-start;
+    padding: 10% 4%;
+    top: 42%;
+}
+section.banner2 form input.casilla{
+    display: block;
+    position: absolute;
+    border-radius: 50px;
+    border: none;
+    height: 5vh;
+    width: 60vw;
+    padding-left: 5vw;
+    font-size: .9rem;
+}
+section.banner2 form input.boton{/*mismo tamaño dl*/
+    position: absolute;
+    display: block;
+    width: 69px;
+    height: 43px;
+    margin-left: 68vw;
+    
+}
+
+
+#op1{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 13vw;
+
+}
+#op2{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 55vw;
+
+}
+section.banner2 div#op1 ul li a{
+    color:white;
+    font-weight: 400;
+    line-height: 4vh;
+}
+section.banner2 div#op2 ul li a{
+    color: white;
+    font-weight: 400;
+    line-height: 4vh;
+}
+#redes{
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+    
+}
+#redes .fab{
+    position: relative;    
+    color: white;
+    font-size: 2.5rem;
+    margin: 4vw;    
+}
+#logo img{
+    display: inline-block;
+    position: absolute;    
+    bottom: 12%;
+    width: 10rem;
+    margin-left: 25%;
+}
+.banner2 p{
+    display: inline-block;
+    position: absolute;    
+    bottom: 3%;
+    padding-left: 10%;
+    color: #8C8C94;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------- MQ*/
+@media screen and (min-width: 1375px){
+    
+    header{/*tomo al header en su totalidad*/
+    padding: 4rem 1rem;
+    
+    }
+    .nav-bar{/*menu navegación*/
+        display: flex;
+        flex-direction: row;
+        font-size: 13px;    
+        line-height: 22,89px;
+        gap:50px;        
+    }
+    .menu_bar{/*oculto la hamburguesa*/
+        display: none;
+    }
+    header nav ul li i{/*margen iconos*/
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    header nav ul i:hover,a:hover{/*cambie de color cuando paso el mouse*/
+        color: rgb(143, 148, 167);    
+    }
+    header input.boton{
+        display: block;
+    }
+    
+    /*------------------------------------------------------------- Main*/
+#primerSection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin: 100px 200px;
+}
+#graficos{
+    order:2;
+    width: 540px;
+    height: 485px;
+    position: absolute;
+    left: 714px;
+    top: 0%;
+}
+#parteB dl dt{
+    background-color: white;
+}
