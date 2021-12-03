@@ -80,15 +80,13 @@ div#titular{
     margin: 0 5vw 2vh 0;
 }
 #titular h1{
-    font-size: 2.25rem;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 4vh;
     text-align: center;
-    
-
 }
 #titular p{
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 2.5vh;
     color: rgb(143, 148, 167);    
     max-width: 90%;
@@ -338,13 +336,12 @@ section.banner2 div#op2 ul li a{
     position: relative;
     justify-content: center;
     margin: 32vh auto 0;
-    
+    gap: 8vw;
 }
 #redes .fab{
-    position: relative;    
     color: white;
-    font-size: 2.5rem;
-    margin: 4vw;    
+    font-size: 2.5rem;   
+    margin-top: 4vh; 
 }
 #logo img{
     display: inline-block;
