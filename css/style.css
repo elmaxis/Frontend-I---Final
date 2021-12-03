@@ -287,8 +287,7 @@ section.banner2 form{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 10% 4%;  
-    margin-left: 5vw;  
+    padding: 10% 4%;   
 }
 section.banner2 form input.casilla{
     display: block;
@@ -307,10 +306,8 @@ section.banner2 form input.boton{/*mismo tamaño dl*/
     position: absolute;
     display: block;
     width: 69px;
-    height: 43px;
-        
+    height: 43px;        
 }
-
 #op1{
     display: inline-block;
     position: absolute;
