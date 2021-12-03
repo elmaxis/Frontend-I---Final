@@ -364,7 +364,7 @@ section.banner2 div#op2 ul li a{
 /*-------------------------------------------------------------------*/
 /*-------------------------------------------------------------------*/
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 400px){
     header{/*tomo al header en su totalidad*/
     padding: 4rem 0;
     top: 0;
@@ -438,7 +438,7 @@ section.banner2 div#op2 ul li a{
 }
 /*------------------------------------------------------------- Segunda Seccion*/
 #segundaSeccion{
-    top: 20vh;   
+    top: 25vh;   
     height: 80vh;
     width: 100%;
     padding-right: 0;
@@ -492,7 +492,7 @@ section.banner2 div#op2 ul li a{
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    top: 15vh;
+    top: 20vh;
     height: 80vh;
     gap: 2%;
     width: 100vw;
@@ -547,7 +547,7 @@ article.tarjeta{
 
 /*------------------------------------------------------------- Footer */
 footer{
-    top: 260vh;
+    top: 265vh;
     height: 80vh;
     
 }
