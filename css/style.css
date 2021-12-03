@@ -334,7 +334,7 @@ section.banner2 div#op2 ul li a{
     display: flex;
     position: relative;
     justify-content: center;
-    margin: 32vh auto 0;
+    margin: 32vh auto 0 5vw;
     gap: 8vw;
 }
 #redes .fab{
@@ -357,7 +357,7 @@ section.banner2 div#op2 ul li a{
     color: #8C8C94;
     font-size: .9rem;
     text-align: center;
-    margin: 0 auto 3%;
+    margin: 0 auto 3% 2vw;
 }
 
 
