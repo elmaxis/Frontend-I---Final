@@ -287,7 +287,8 @@ section.banner2 form{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
-    padding: 10% 4%;    
+    padding: 10% 4%;  
+    margin-left: 2vw;  
 }
 section.banner2 form input.casilla{
     display: block;
