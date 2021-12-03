@@ -15,7 +15,7 @@
 }
 
 /*------------------------------------------------------------- Header*/
-header{/*logo*/
+header{
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -376,7 +376,7 @@ section.banner2 div#op2 ul li a{
 
 
 /*------------------------------------------------------------- MQ*/
-@media screen and (min-width: 1300px){
+@media screen and (min-width: 375px){
     body{
     margin-right: 0 10vw;
     }
