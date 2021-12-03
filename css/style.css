@@ -11,7 +11,6 @@
 .contenedor{
     width: 100%;
     max-width: 1000px;
-    margin: 1rem;
 
 }
 
@@ -27,7 +26,6 @@ header{
     padding: 4vh 1vw;
     background-color: white;
     top: 0;
-    margin: 0 -1rem;
 
 
     
@@ -142,7 +140,7 @@ div#titular input.boton{
     width: 95vw;
     position: relative;
     padding: 0 0 15% 0%;
-    margin-bottom: 5%;
+    margin: 0 0 5% 0;
 
 }
 #parteB dl span{/*el no boton para numerar*/
@@ -157,7 +155,7 @@ div#titular input.boton{
     font-size: 16px;
     line-height: 23,38px;
     position: relative;
-    z-index: 1;
+    z-index: 1;  
     
 
 }
@@ -170,7 +168,7 @@ div#titular input.boton{
     padding: 1vh 4vh;    
     background-color: rgb(255, 239, 234);
     font-size: .99rem;
-    width: 100%;
+    width: 75%;
 }
 #parteB dl dd{
     position: absolute;
@@ -185,38 +183,37 @@ div#titular input.boton{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
     box-sizing: border-box;
-    justify-content: center;
-    top: 190vh;
-    height: 150vh;
-    
+    top: 210vh;
+    height: 170vh;   
 }
 #terceraSeccion h2{
     display: block;
     position: relative;
-    justify-content: center;
     font-size: 2rem;
     line-height: 4vh;
     font-weight: 700;
-    margin: 30% 0% 30% 0%;
+    margin: 10% 0% 30% 0%;
 }
 article.tarjeta{
-    display:block;
-    justify-content: center;
-    position: relative;    
+    display:flex;
+    position: relative; 
+    justify-content: center;   
     background-color:rgb(249, 249, 249);
-    height: 25vh; 
+    height: 24vh; 
     width: 100%;
-    margin-bottom: 8vh; 
+    margin-bottom: 12vh; 
+    top:2vh;    
 }
 .tarjeta img{
-    width: 35%;
+    width: 30%;
     padding: 0 25%;
     display: block;
     position: absolute;
-    top: -25%;
+    top: -30%;
 
 }
 .tarjeta h4{
@@ -224,15 +221,15 @@ article.tarjeta{
     top:40%;
     font-weight: 700;
     line-height: 2vh;
-    padding: 0 30%;
-    
+    margin-left: 25vw;
+    width: 50%;    
 }
 .tarjeta p{
     position: absolute;
     top: 60%;
     font-weight: 600;
     line-height: 2vh;
-    width: 90%;
+    width: 80%;
     color:#B9B9C1;
     font-size: .8rem;
     text-align: center;
@@ -240,8 +237,7 @@ article.tarjeta{
 #terceraSeccion .boton{
     display: block;
     position: absolute;
-    bottom: 2%;
-    margin-left: 30%;    
+    top: 130vh;    
 }
 
 
