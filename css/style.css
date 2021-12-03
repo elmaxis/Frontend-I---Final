@@ -95,7 +95,10 @@ div#titular{
     margin: 1vh 10% 2vh;
 }
 div#titular input.boton{
-    margin-left: 30%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto 8vh;
 }
 
 /*----------------------------------------------------- Segunda sEccion*/
@@ -267,12 +270,13 @@ footer{
     text-align: center;  
 }
 .banner1 .boton{
-    display: block;
-    position: absolute;
-    margin-left: 31vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto 8vh;
     background-color: rgb(255, 239, 234);
     color: rgb(242, 95, 58);
-    bottom: 25%;
+    
 }
 .banner1 .boton:hover{
     background-color: rgba(255, 239, 234,0.5);
@@ -331,9 +335,9 @@ section.banner2 div#op2 ul li a{
 }
 #redes{
     display: flex;
-    position: absolute;
-    bottom: 20%;
+    position: relative;
     justify-content: center;
+    margin: 32vh auto 0;
     
 }
 #redes .fab{
