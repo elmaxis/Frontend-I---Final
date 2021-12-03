@@ -282,12 +282,12 @@ footer{
     display: flex;        
 }
 section.banner2 form{
-    display: block;
-    position: absolute;
-    justify-content: center;
-    padding: 10% 4%;
-    top: 42%;
-    margin: 0 auto;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10% 4%;    
 }
 section.banner2 form input.casilla{
     display: block;
@@ -298,13 +298,16 @@ section.banner2 form input.casilla{
     width: 60vw;
     padding-left: 5vw;
     font-size: .9rem;
+    margin-right: 21vw;
+    
+    
 }
 section.banner2 form input.boton{/*mismo tamaño dl*/
     position: absolute;
     display: block;
     width: 69px;
     height: 43px;
-    margin-left: 68vw;    
+        
 }
 
 #op1{
