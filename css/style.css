@@ -14,7 +14,7 @@
 
 /*------------------------------------------------------------- Header*/
 header{
-
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -345,7 +345,7 @@ section.banner2 div#op2 ul li a{
 #logo img{
     display: inline-block;
     position: absolute;    
-    bottom: 12%;
+    bottom: 10%;
     width: 10rem;
     margin-left: 25%;
     
