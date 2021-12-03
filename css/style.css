@@ -383,7 +383,7 @@ section.banner2 div#op2 ul li a{
 
 
 /*------------------------------------------------------------- MQ*/
-@media screen and (min-width: 375px){
+@media screen and (min-width: 1375px){
     body{
     margin: 0 1vw;
     }
