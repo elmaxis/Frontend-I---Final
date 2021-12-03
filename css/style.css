@@ -269,7 +269,7 @@ footer{
 .banner1 .boton{
     display: block;
     position: absolute;
-    margin-left: 30%;
+    margin-left: 31vw;
     background-color: rgb(255, 239, 234);
     color: rgb(242, 95, 58);
     bottom: 25%;
@@ -333,6 +333,7 @@ section.banner2 div#op2 ul li a{
     display: flex;
     position: absolute;
     bottom: 20%;
+    justify-content: center;
     
 }
 #redes .fab{
