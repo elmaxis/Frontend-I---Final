@@ -10,13 +10,11 @@
 }
 .contenedor{
     width: 100%;
-    max-width: 1000px;
-
 }
 
 /*------------------------------------------------------------- Header*/
 header{
-    width: 100%;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,7 +60,7 @@ header input.boton{/*boton naranja oculto*/
     flex-direction: column;    
     align-items: flex-start;    
     position: absolute;
-    top: 16vh;
+    top: 15vh;
     box-sizing: border-box;
 }
 #graficos img{
@@ -82,7 +80,7 @@ div#titular{
 #titular h1{
     font-size: 2.4rem;
     font-weight: 700;
-    line-height: 4vh;
+    line-height: 5vh;
     text-align: center;
 }
 #titular p{
@@ -106,7 +104,7 @@ div#titular input.boton{
     align-items: flex-start;
     position: relative;
     box-sizing: border-box;
-    top: 85vh
+    top: 87vh
 }
 #parteA{/*texto*/
     display: block;
@@ -288,6 +286,7 @@ section.banner2 form{
     justify-content: flex-end;
     align-items: flex-start;
     padding: 10% 4%;   
+    
 }
 section.banner2 form input.casilla{
     display: block;
@@ -307,6 +306,7 @@ section.banner2 form input.boton{/*mismo tamaño dl*/
     display: block;
     width: 69px;
     height: 43px;        
+    
 }
 #op1{
     display: inline-block;
@@ -348,6 +348,7 @@ section.banner2 div#op2 ul li a{
     bottom: 12%;
     width: 10rem;
     margin-left: 25%;
+    
 }
 .banner2 p{
     display: inline-block;
@@ -360,34 +361,17 @@ section.banner2 div#op2 ul li a{
     margin: 0 auto 3% 6vw;
 }
 
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*------------------------------------------------------------- MQ   */
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------------------------------------------- MQ*/
-@media screen and (min-width: 1400px){
-    body{
-    margin: 0 1vw;
-    }
+@media screen and (min-width: 375px){
     header{/*tomo al header en su totalidad*/
     padding: 4rem 0;
     top: 0;
-    background-color: grey;
+    width: 100%;
     }
     header img{
         height: 6vh;    
@@ -420,15 +404,15 @@ section.banner2 div#op2 ul li a{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 50vw;
     height: 60vh;
     margin: 10vh 2vw;
+    width: 100%;
 }
 #graficos{
-    width: 60vw;
+    width: 50vw;
     height: 48vh;
     position: absolute;
-    left: 45vw;
+    left: 40vw;
     top: 1.5vh;
 }
 #titular{
@@ -453,103 +437,183 @@ section.banner2 div#op2 ul li a{
 }
 #titular input.boton{
     position: relative;
-    left: 4vw;
     top: 2vh;
 }
 /*------------------------------------------------------------- Segunda Seccion*/
 #segundaSeccion{
     top: 20vh;   
-    left: 3vw; 
+    height: 80vh;
+    width: 100%;
+    padding-right: 0;
     }
 #parteA{
     display: inline-block;
     max-width: 50%;
-    left: 5vw;
     top: .5vh;
     padding-top: 0vh;
 }
 #parteA h3{
     line-height: 3rem;
+    margin-right: 19vw;
 
 }
 #parteA p{
-    line-height: 1.5rem;
+    margin-left: 3%;
+    line-height: 2rem;
     padding-top: 1.5rem;
     width: 70%;
     color: black;
 }
 #parteB{/*listados*/
-    width: 20vw;
+    max-width: 50%;
     top: 2vh;
-    left: 45vw;
+    left: 40vw;
+    height: 20vh;    
 }
 #parteB dl{
-    height: 15vh;
-    width: 50vw;
+    height: 8vh;
+    width: 47vw;
     left: 5vw;
+    padding-bottom: 5vw;
+   
 }
 #parteB dl dt{
     left: 3.5vw; 
     background-color: white;
     width: 40vw;   
+    
 }
 #parteB dl dd{
     top: 5vh;
     line-height: 1.5rem;
-    left: 3vw;   
-    width: 30vw; 
+    left: 3vw; 
+    width: 40vw; 
+ 
 }
 /*------------------------------------------------------------- Tercera Seccion*/
-
-#terceraSeccion{
-    
+#terceraSeccion{        
     flex-direction: row;
-    align-items: center;
-    top: 110vh;
-    height: 50vh;
-    width: 100vw;  
-    background-color: #B9B9C1;  
+    justify-content: center;
+    align-items: flex-start;
+    top: 15vh;
+    height: 80vh;
+    gap: 2%;
+    width: 100vw;
 }
 #terceraSeccion h2{
-    left: 25vw;
-    margin-top: 0;
+        margin: 5% auto;
+        width: 100%;
+        text-align: center;
+        margin: 4% 0 0 0;
+        top: 0;
 }
 article.tarjeta{
-    display:flex;
-    justify-content: center;
-    position: relative;    
     background-color:rgb(249, 249, 249);
-    height: 21%; 
-    margin-bottom: 8vh; 
-    width: 30%;
+    height: 35%; 
+    margin: 1% 0; 
+    width: 25%;
+
 }
 .tarjeta img{
+    text-align: center;
     width: 35%;
-    padding: 0 25%;
-    display: block;
-    position: absolute;
-    top: -20%;
+    top: -40%;
 
 }
 .tarjeta h4{
-    position: absolute;
-    top:35%;
+    z-index: 1;
+    text-align: center;    
+    top:40%;
     font-weight: 700;
     line-height: 2vh;
+    right: 25%;   
+    
 }
 .tarjeta p{
     position: absolute;
-    top: 50%;
+    top: 60%;
     font-weight: 600;
     line-height: 2vh;
     width: 90%;
     color:#B9B9C1;
     font-size: .8rem;
     text-align: center;
+    
 }
 #terceraSeccion .boton{
-    display: block;
+    display: inline-block;
     position: absolute;
-    bottom: 2%;
-    margin-left: 30%;    
+    margin-left: auto;
+    margin-right: auto;   
+    top: 95%
+}
+
+/*------------------------------------------------------------- Footer */
+footer{
+    top: 25vh;
+    height: 80vh;
+    
+}
+.banner1 span{
+    padding: 10vh 10vw 10vh 15vw;
+    width: 30%;  
+    height: 40%; 
+    text-align: left;
+    
+}
+.banner1 .boton{
+    justify-self: right;
+    margin-left: 80%;
+    margin-bottom: 8%;
+    top: 2vh;
+    
+}
+#logo img{
+    top: 55%;
+    margin-left: 10vw;
+    width: 15rem;
+    
+}
+#redes{
+    gap: 2vw;
+    margin-left: 12%;
+}
+#redes .fab{
+    font-size: 1rem;
+    
+}
+#redes .fab:hover{
+    color: rgb(242, 95, 58);
+}
+section.banner2 form input.casilla{
+    width: 15vw;
+    padding-left: 2vw;
+    margin-right: 10vw;
+    top: 16vh;
+
+    
+    
+}
+section.banner2 form input.boton{
+    margin-right: 5vw;
+    top: 15.6vh;
+    
+}
+#op1{
+    top: 46vh;
+    left: 38vw;
+    
+}
+#op2{
+    top: 46vh;
+    left: 53vw;
+    
+}
+.banner2 p{
+    bottom: 4vh;
+    left: 60vw;
+    
+}
+.banner #op2  ul li a:hover{
+    color: rgb(242, 95, 58);
 }

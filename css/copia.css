@@ -1,0 +1,261 @@
+#segundaSeccion{/* texto y listados*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    box-sizing: border-box;
+    top: 87vh
+}
+#parteA{/*texto*/
+    display: block;
+    position: absolute;
+    padding: 5%;
+    max-width: 90%;
+    
+}
+#parteA h3{
+    font-size: 1.8rem;
+    line-height: 4vh;
+    font-weight: 700;    
+    padding-bottom: 2vh;
+    left: 2vw;
+    text-align: center;
+}
+#parteA p{
+    line-height: 2.5vh;
+    color: rgb(143, 148, 167);
+}
+#parteB{/*listados*/
+    display: block;
+    position: absolute;
+    top:32vh;
+}
+#parteB dl{
+    height: 20vh;
+    width: 95vw;
+    position: relative;
+    padding: 0 0 15% 0%;
+    margin: 0 0 5% 0;
+
+}
+#parteB dl span{/*el no boton para numerar*/
+    width: 69px;
+    height: 43px;
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-weight: 700;    
+    font-size: 16px;
+    line-height: 23,38px;
+    position: relative;
+    z-index: 1;  
+    
+
+}
+#parteB dl dt{
+    position: absolute;
+    left: 13vw;
+    top: -1vh;
+    display: block;
+    font-weight: 700;
+    padding: 1vh 4vh;    
+    background-color: rgb(255, 239, 234);
+    font-size: .99rem;
+    width: 75%;
+}
+#parteB dl dd{
+    position: absolute;
+    top:20%;
+    color: rgb(143, 148, 167);
+    line-height: 3vh;
+    margin: 0% 5%;    
+}
+
+#terceraSeccion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    top: 200vh;
+    height: 170vh;   
+}
+#terceraSeccion h2{
+    display: block;
+    position: relative;
+    font-size: 2rem;
+    line-height: 4vh;
+    font-weight: 700;
+    margin: 10% 0% 30% 0%;
+}
+article.tarjeta{
+    display:flex;
+    position: relative; 
+    justify-content: center;   
+    background-color:rgb(249, 249, 249);
+    height: 24vh; 
+    width: 100%;
+    margin-bottom: 12vh; 
+    top:2vh;    
+}
+.tarjeta img{
+    width: 30%;
+    padding: 0 25%;
+    display: block;
+    position: absolute;
+    top: -30%;
+
+}
+.tarjeta h4{
+    position: absolute;
+    top:40%;
+    font-weight: 700;
+    line-height: 2vh;
+    margin-left: 25vw;
+    width: 50%;    
+}
+.tarjeta p{
+    position: absolute;
+    top: 60%;
+    font-weight: 600;
+    line-height: 2vh;
+    width: 80%;
+    color:#B9B9C1;
+    font-size: .8rem;
+    text-align: center;
+}
+#terceraSeccion .boton{
+    display: block;
+    position: absolute;
+    top: 130vh;    
+}
+
+
+footer{
+    display:block;
+    position: relative;
+    top: 175vh;
+    height: 100vh;
+}
+.banner1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    position: relative;
+    background-color: #F3613C;
+    height: 40%;
+}
+.banner1 span{
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 5vh;
+    padding: 45% 5%;  
+    text-align: center;  
+}
+.banner1 .boton{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto 8vh;
+    background-color: rgb(255, 239, 234);
+    color: rgb(242, 95, 58);
+    
+}
+.banner1 .boton:hover{
+    background-color: rgba(255, 239, 234,0.5);
+}
+.banner2{
+    background-color: #1E1E26;
+    height: 60%;
+    display: flex;        
+}
+section.banner2 form{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10% 4%;   
+    
+}
+section.banner2 form input.casilla{
+    display: block;
+    position: absolute;
+    border-radius: 50px;
+    border: none;
+    height: 5vh;
+    width: 61vw;
+    padding-left: 5vw;
+    font-size: .9rem;
+    margin-right: 20vw;
+    
+    
+}
+section.banner2 form input.boton{/*mismo tamaño dl*/
+    position: absolute;
+    display: block;
+    width: 69px;
+    height: 43px;        
+    
+}
+#op1{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 13vw;
+}
+#op2{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 55vw;
+}
+section.banner2 div#op1 ul li a{
+    color:white;
+    font-weight: 400;
+    line-height: 4vh;
+}
+section.banner2 div#op2 ul li a{
+    color: white;
+    font-weight: 400;
+    line-height: 4vh;
+}
+#redes{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 32vh auto 0 6vw;
+    gap: 8vw;
+}
+#redes .fab{
+    color: white;
+    font-size: 2.5rem;   
+    margin-top: 4vh; 
+}
+#logo img{
+    display: inline-block;
+    position: absolute;    
+    bottom: 12%;
+    width: 10rem;
+    margin-left: 25%;
+    
+}
+.banner2 p{
+    display: inline-block;
+    position: absolute;    
+    bottom: 3%;
+    padding-left: 10%;
+    color: #8C8C94;
+    font-size: .9rem;
+    text-align: center;
+    margin: 0 auto 3% 6vw;
+}
